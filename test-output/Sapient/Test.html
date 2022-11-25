@@ -1,0 +1,301 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>43/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 23 23:29:11 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>250 seconds (250199 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Allfiles.MyFirstTestNg.test3()'><b>test3</b><br>Test class: Allfiles.MyFirstTestNg</td>
+<td></td>
+<td>0</td>
+<td>Allfiles.MyFirstTestNg@5e600dd5</td></tr>
+<tr>
+<td title='Allfiles.MyFirstSeleniumScript2.tool()'><b>tool</b><br>Test class: Allfiles.MyFirstSeleniumScript2</td>
+<td></td>
+<td>5</td>
+<td>Allfiles.MyFirstSeleniumScript2@21282ed8</td></tr>
+<tr>
+<td title='Allfiles.screenshot.tool()'><b>tool</b><br>Test class: Allfiles.screenshot</td>
+<td></td>
+<td>3</td>
+<td>Allfiles.screenshot@130c12b7</td></tr>
+<tr>
+<td title='Allfiles.DragDropExample.tool()'><b>tool</b><br>Test class: Allfiles.DragDropExample</td>
+<td></td>
+<td>9</td>
+<td>Allfiles.DragDropExample@7bab3f1a</td></tr>
+<tr>
+<td title='Allfiles.MyFirstTestNg.login()'><b>login</b><br>Test class: Allfiles.MyFirstTestNg</td>
+<td></td>
+<td>0</td>
+<td>Allfiles.MyFirstTestNg@5e600dd5</td></tr>
+<tr>
+<td title='Allfiles.MyFirstTestNg.test1()'><b>test1</b><br>Test class: Allfiles.MyFirstTestNg</td>
+<td></td>
+<td>0</td>
+<td>Allfiles.MyFirstTestNg@5e600dd5</td></tr>
+<tr>
+<td title='Allfiles.MyFirstSeleniumScript3.tool()'><b>tool</b><br>Test class: Allfiles.MyFirstSeleniumScript3</td>
+<td></td>
+<td>2</td>
+<td>Allfiles.MyFirstSeleniumScript3@60bd273d</td></tr>
+<tr>
+<td title='Allfiles.ExplicitWaitDemo.tool()'><b>tool</b><br>Test class: Allfiles.ExplicitWaitDemo</td>
+<td></td>
+<td>19</td>
+<td>Allfiles.ExplicitWaitDemo@242b836</td></tr>
+<tr>
+<td title='Allfiles.LoginTest.invalidCredential()'><b>invalidCredential</b><br>Test class: Allfiles.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>Allfiles.LoginTest@4f80542f</td></tr>
+<tr>
+<td title='Allfiles.signUpScript.tool()'><b>tool</b><br>Test class: Allfiles.signUpScript</td>
+<td></td>
+<td>5</td>
+<td>Allfiles.signUpScript@36916eb0</td></tr>
+<tr>
+<td title='Allfiles.MyFirstTestNg.deletedAccount()'><b>deletedAccount</b><br>Test class: Allfiles.MyFirstTestNg</td>
+<td></td>
+<td>0</td>
+<td>Allfiles.MyFirstTestNg@5e600dd5</td></tr>
+<tr>
+<td title='Allfiles.MyFirstSeleniumScript.tool()'><b>tool</b><br>Test class: Allfiles.MyFirstSeleniumScript</td>
+<td></td>
+<td>3</td>
+<td>Allfiles.MyFirstSeleniumScript@5d534f5d</td></tr>
+<tr>
+<td title='Allfiles.LoginTest.validPasswordInvalidUsername()'><b>validPasswordInvalidUsername</b><br>Test class: Allfiles.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>Allfiles.LoginTest@4f80542f</td></tr>
+<tr>
+<td title='Allfiles.waitexample.tool()'><b>tool</b><br>Test class: Allfiles.waitexample</td>
+<td></td>
+<td>4</td>
+<td>Allfiles.waitexample@2d52216b</td></tr>
+<tr>
+<td title='Allfiles.AssertDemo.test()'><b>test</b><br>Test class: Allfiles.AssertDemo</td>
+<td></td>
+<td>0</td>
+<td>Allfiles.AssertDemo@5a45133e</td></tr>
+<tr>
+<td title='Allfiles.MyFirstSeleniumScript4.tool()'><b>tool</b><br>Test class: Allfiles.MyFirstSeleniumScript4</td>
+<td></td>
+<td>2</td>
+<td>Allfiles.MyFirstSeleniumScript4@534a5a98</td></tr>
+<tr>
+<td title='Allfiles.LoginTest.verifyNoPassword()'><b>verifyNoPassword</b><br>Test class: Allfiles.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>Allfiles.LoginTest@4f80542f</td></tr>
+<tr>
+<td title='Allfiles.MyFirstTestNg.createAccount()'><b>createAccount</b><br>Test class: Allfiles.MyFirstTestNg</td>
+<td></td>
+<td>0</td>
+<td>Allfiles.MyFirstTestNg@5e600dd5</td></tr>
+<tr>
+<td title='Allfiles.testcases.verifyUrl()'><b>verifyUrl</b><br>Test class: Allfiles.testcases<br>Test method: checking url is meeting or not</td>
+<td></td>
+<td>0</td>
+<td>Allfiles.testcases@771a660</td></tr>
+<tr>
+<td title='Allfiles.MyFirstTestNg.test2()'><b>test2</b><br>Test class: Allfiles.MyFirstTestNg</td>
+<td></td>
+<td>0</td>
+<td>Allfiles.MyFirstTestNg@5e600dd5</td></tr>
+<tr>
+<td title='Allfiles.HandleAutoSuggestion.tool()'><b>tool</b><br>Test class: Allfiles.HandleAutoSuggestion</td>
+<td></td>
+<td>11</td>
+<td>Allfiles.HandleAutoSuggestion@66f57048</td></tr>
+<tr>
+<td title='Allfiles.LoginTest.NoCredintial()'><b>NoCredintial</b><br>Test class: Allfiles.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>Allfiles.LoginTest@4f80542f</td></tr>
+<tr>
+<td title='Allfiles.DdtExample.test1()'><b>test1</b><br>Test class: Allfiles.DdtExample<br>Parameters: sample9@gmail.com, Mukesh1234</td>
+<td></td>
+<td>2</td>
+<td>Allfiles.DdtExample@70e9c95d</td></tr>
+<tr>
+<td title='Allfiles.HandleDynamicElements.tool()'><b>tool</b><br>Test class: Allfiles.HandleDynamicElements</td>
+<td></td>
+<td>20</td>
+<td>Allfiles.HandleDynamicElements@550dbc7a</td></tr>
+<tr>
+<td title='Allfiles.AssertDemo.test2()'><b>test2</b><br>Test class: Allfiles.AssertDemo<br/>
+<a href="#Output-1083650811" onClick='toggleBox("Output-1083650811", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1083650811" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1083650811">
+test 2 failed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Allfiles.AssertDemo@5a45133e</td></tr>
+<tr>
+<td title='Allfiles.MyFirstTestNg.logout()'><b>logout</b><br>Test class: Allfiles.MyFirstTestNg</td>
+<td></td>
+<td>0</td>
+<td>Allfiles.MyFirstTestNg@5e600dd5</td></tr>
+<tr>
+<td title='Allfiles.ReadingExcel.getTestData()'><b>getTestData</b><br>Test class: Allfiles.ReadingExcel</td>
+<td></td>
+<td>1</td>
+<td>Allfiles.ReadingExcel@4dbb42b7</td></tr>
+<tr>
+<td title='Allfiles.testcases.verifyForgotPasswordLink()'><b>verifyForgotPasswordLink</b><br>Test class: Allfiles.testcases</td>
+<td></td>
+<td>0</td>
+<td>Allfiles.testcases@771a660</td></tr>
+<tr>
+<td title='Allfiles.alertPromt.tool()'><b>tool</b><br>Test class: Allfiles.alertPromt</td>
+<td></td>
+<td>13</td>
+<td>Allfiles.alertPromt@576d5deb</td></tr>
+<tr>
+<td title='Allfiles.ActionsClassExamples.tool()'><b>tool</b><br>Test class: Allfiles.ActionsClassExamples</td>
+<td></td>
+<td>6</td>
+<td>Allfiles.ActionsClassExamples@3527942a</td></tr>
+<tr>
+<td title='Allfiles.LoginTest.validUsernameInvalidPassword()'><b>validUsernameInvalidPassword</b><br>Test class: Allfiles.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>Allfiles.LoginTest@4f80542f</td></tr>
+<tr>
+<td title='Allfiles.HandleMultipleWindow.tool()'><b>tool</b><br>Test class: Allfiles.HandleMultipleWindow</td>
+<td></td>
+<td>11</td>
+<td>Allfiles.HandleMultipleWindow@2e3967ea</td></tr>
+<tr>
+<td title='Allfiles.MyFirstSeleniumScript7.tool()'><b>tool</b><br>Test class: Allfiles.MyFirstSeleniumScript7</td>
+<td></td>
+<td>9</td>
+<td>Allfiles.MyFirstSeleniumScript7@3f6f6701</td></tr>
+<tr>
+<td title='Allfiles.Task7.tool()'><b>tool</b><br>Test class: Allfiles.Task7</td>
+<td></td>
+<td>2</td>
+<td>Allfiles.Task7@121314f7</td></tr>
+<tr>
+<td title='Allfiles.HandleMultipleWindow2.tool()'><b>tool</b><br>Test class: Allfiles.HandleMultipleWindow2</td>
+<td></td>
+<td>25</td>
+<td>Allfiles.HandleMultipleWindow2@43dac38f</td></tr>
+<tr>
+<td title='Allfiles.HandleAlert.tool()'><b>tool</b><br>Test class: Allfiles.HandleAlert</td>
+<td></td>
+<td>2</td>
+<td>Allfiles.HandleAlert@1e1a0406</td></tr>
+<tr>
+<td title='Allfiles.LoginTest.validCredential()'><b>validCredential</b><br>Test class: Allfiles.LoginTest</td>
+<td></td>
+<td>6</td>
+<td>Allfiles.LoginTest@4f80542f</td></tr>
+<tr>
+<td title='Allfiles.DdtExample.test1()'><b>test1</b><br>Test class: Allfiles.DdtExample<br>Parameters: samplemukesh1@gmail.com, Mukesh1234</td>
+<td></td>
+<td>1</td>
+<td>Allfiles.DdtExample@70e9c95d</td></tr>
+<tr>
+<td title='Allfiles.testcases.verifyTitle()'><b>verifyTitle</b><br>Test class: Allfiles.testcases</td>
+<td></td>
+<td>0</td>
+<td>Allfiles.testcases@771a660</td></tr>
+<tr>
+<td title='Allfiles.DdtExample.test1()'><b>test1</b><br>Test class: Allfiles.DdtExample<br>Parameters: samplemukesh@gmail.com, Mukesh1234</td>
+<td></td>
+<td>2</td>
+<td>Allfiles.DdtExample@70e9c95d</td></tr>
+<tr>
+<td title='Allfiles.testcases.verifySocilaMediaCount()'><b>verifySocilaMediaCount</b><br>Test class: Allfiles.testcases</td>
+<td></td>
+<td>0</td>
+<td>Allfiles.testcases@771a660</td></tr>
+<tr>
+<td title='Allfiles.LoginTest.verifyNoUsername()'><b>verifyNoUsername</b><br>Test class: Allfiles.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>Allfiles.LoginTest@4f80542f</td></tr>
+<tr>
+<td title='Allfiles.DdtExample.test1()'><b>test1</b><br>Test class: Allfiles.DdtExample<br>Parameters: samplemukesh1@gmail.com, Mukesh1234</td>
+<td></td>
+<td>1</td>
+<td>Allfiles.DdtExample@70e9c95d</td></tr>
+</table><p>
+</body>
+</html>

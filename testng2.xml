@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sapient">
+  <test thread-count="3" name="Test">
+    <classes>
+      <class name="Allfiles.HandleMultipleWindow2"/>
+      <class name="Allfiles.ReadingExcel"/>
+      <class name="Allfiles.HandleAutoSuggestion"/>
+      <class name="Allfiles.HandleDynamicElements"/>
+      <class name="Allfiles.MyFirstSeleniumScript2"/>
+      <class name="Allfiles.signUpScript"/>
+      <class name="Allfiles.DragDropExample"/>
+      <class name="Allfiles.HandleAlert"/>
+      <class name="Allfiles.testcases"/>
+      <class name="Allfiles.waitexample"/>
+      <class name="Allfiles.ExplicitWaitDemo"/>
+      <class name="Allfiles.MyFirstSeleniumScript7"/>
+      <class name="Allfiles.ActionsClassExamples"/>
+      <class name="Allfiles.AssertDemo"/>
+      <class name="Allfiles.MyFirstSeleniumScript4"/>
+      <class name="Allfiles.LoginTest"/>
+      <class name="Allfiles.MyFirstSeleniumScript3"/>
+      <class name="Allfiles.Task7"/>
+      <class name="Allfiles.screenshot"/>
+      <class name="Allfiles.MyFirstTestNg"/>
+      <class name="Allfiles.alertPromt"/>
+      <class name="Allfiles.MyFirstSeleniumScript"/>
+      <class name="Allfiles.HandleMultipleWindow"/>
+      <class name="Allfiles.DdtExample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Sapient -->
